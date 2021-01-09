@@ -4,8 +4,9 @@ block content
   #banner.page-header
     .row
       .col-lg-6.mt-3
-        h4 Loc8r
-          small &nbsp;Find places to work with wifi near you!
+        h2  = pageHeader.title
+          small 
+          &nbsp; #{pageHeader.strapline}
   .row.loc
     .col-xs-12.col-sm-8 
       .row.list-group
